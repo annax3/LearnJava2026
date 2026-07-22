@@ -17,7 +17,7 @@ public class EmployeeMapper {
     }
 
     //convert into employeeDto to Employee entity
-    public  static Employee mapToEmployeeDto(Employeedto employeeDto){
+    public  static Employee mapToEmployee(Employeedto employeeDto){
         return  new Employee(
                 employeeDto.getId(),
                 employeeDto.getFirstName(),
